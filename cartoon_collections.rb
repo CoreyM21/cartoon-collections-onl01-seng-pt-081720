@@ -15,7 +15,6 @@ def long_planeteer_calls(words)
   else
     true
   end
-end
   end 
 
 end
