@@ -5,7 +5,9 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map! {|call| call.capitalize }
+  planeteer_calls.map do |call|
+    binding.pry
+    call.capitlize
   # Your code here
 end
 
