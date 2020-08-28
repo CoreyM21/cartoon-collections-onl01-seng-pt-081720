@@ -1,12 +1,11 @@
 require "pry"
 
-def roll_call_dwarves(dwarf_names)# code an argument here
-
+def roll_call_dwarves(dwarf_names)
  dwarf_names.each_with_index {|i, number| puts "#{number+1} #{i}"}
-  
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
+  
   # Your code here
 end
 
