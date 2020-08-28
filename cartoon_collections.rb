@@ -9,7 +9,8 @@ def summon_captain_planet(planeteer_calls)
   end
 
 def long_planeteer_calls(words)
-  if 
+  words.each |i|
+  if i.
   # Your code here
 end
 
